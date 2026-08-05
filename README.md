@@ -247,4 +247,4 @@ LinkedIn: https://linkedin.com/in/ttherasme
 
 ## License
 
-This project uses a public dataset**[dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments)** available for educational and portfolio purposes.
+This project uses a public **[dataset](https://www.kaggle.com/datasets/joniarroba/noshowappointments)** available for educational and portfolio purposes.
