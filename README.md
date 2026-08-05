@@ -8,8 +8,6 @@ The project transforms a public healthcare appointment dataset into an interacti
 
 ## Dashboard Preview
 
-> Add a screenshot after publishing.
-
 ![Dashboard](screenshots/dashboard.png)
 
 ---
