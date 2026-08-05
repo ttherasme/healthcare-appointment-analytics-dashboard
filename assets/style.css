@@ -1,0 +1,572 @@
+/* ==========================================================
+   GLOBAL STYLE
+========================================================== */
+
+body {
+
+    background-color: #f4f6f9;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+}
+
+
+/* Main dashboard spacing */
+
+.dashboard-container {
+
+    padding-top: 25px;
+
+    padding-bottom: 40px;
+
+    padding-left: 35px;
+
+    padding-right: 35px;
+
+}
+
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+
+.header-card {
+
+    border: none;
+
+    border-radius: 18px;
+
+    background: white;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+.header-content {
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.dashboard-title {
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.dashboard-subtitle {
+
+    color: #6c757d;
+
+    font-size: 16px;
+
+    margin-bottom: 0;
+
+}
+
+
+
+/* ==========================================================
+   SECTION TITLES
+========================================================== */
+
+
+.section-title {
+
+    font-size: 24px;
+
+    font-weight: 750;
+
+    color: #343a40;
+
+    margin-top: 35px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ==========================================================
+   FILTER CARD
+========================================================== */
+
+
+.filter-card {
+
+    border: none;
+
+    border-radius: 18px;
+
+    background: white;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+.filter-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+
+
+.filter-title {
+
+    font-weight:700;
+
+    margin-bottom:5px;
+
+}
+
+
+
+.filter-subtitle {
+
+    color:#6c757d;
+
+    margin-bottom:0;
+
+}
+
+
+
+.filter-label {
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+
+
+.reset-btn {
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+
+
+/* ==========================================================
+   KPI CARDS
+========================================================== */
+
+
+.kpi-card {
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    height:120px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+
+}
+
+
+
+.kpi-card:hover {
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 8px 18px rgba(0,0,0,0.12);
+
+}
+
+
+
+.kpi-content {
+
+    display:flex;
+
+    align-items:center;
+
+    height:100%;
+
+    padding:15px;
+
+}
+
+
+
+.kpi-icon {
+
+    font-size:38px;
+
+    min-width:55px;
+
+}
+
+
+
+.kpi-text {
+
+    flex:1;
+
+}
+
+
+
+.kpi-title {
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#6c757d;
+
+}
+
+
+
+.kpi-value {
+
+    font-size:28px;
+
+    font-weight:800;
+
+    margin:5px 0 0 0;
+
+    color:#212529;
+
+}
+
+
+
+/* ==========================================================
+   BUSINESS INSIGHTS
+========================================================== */
+
+
+.insight-card {
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+.insight-card li {
+
+    margin-bottom:10px;
+
+    font-size:15px;
+
+}
+
+
+
+/* ==========================================================
+   CHART CARDS
+========================================================== */
+
+
+.chart-card {
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    height:100%;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+    transition:
+        transform .2s ease;
+
+}
+
+
+
+.chart-card:hover {
+
+    transform:translateY(-3px);
+
+}
+
+
+
+.chart-title {
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#343a40;
+
+    margin-bottom:10px;
+
+}
+
+
+
+/* Plotly responsive */
+
+.js-plotly-plot,
+
+.plot-container {
+
+    width:100% !important;
+
+}
+
+
+
+/* ==========================================================
+   DASHBOARD TABS
+========================================================== */
+
+
+.custom-tabs {
+
+    margin-top:35px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* Inactive tabs */
+
+.custom-tab {
+
+    background-color:#dee2e6 !important;
+
+    color:#495057 !important;
+
+    border:none !important;
+
+    padding:14px 25px;
+
+    font-weight:700;
+
+    border-radius:10px 10px 0 0;
+
+    transition:all .2s ease;
+
+}
+
+
+
+.custom-tab:hover {
+
+    background-color:#ced4da !important;
+
+}
+
+
+
+/* Active tab */
+
+.custom-tab--selected {
+
+    background-color:#198754 !important;
+
+    color:white !important;
+
+}
+
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+
+.dashboard-footer {
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    text-align:center;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+.footer-title {
+
+    color:#198754;
+
+    font-weight:700;
+
+    margin-bottom:5px;
+
+}
+
+
+
+.footer-text {
+
+    color:#6c757d;
+
+    margin-bottom:0;
+
+}
+
+
+
+/* ==========================================================
+   RESPONSIVE DESIGN
+========================================================== */
+
+
+@media(max-width:1200px){
+
+
+    .dashboard-container {
+
+        padding-left:25px;
+
+        padding-right:25px;
+
+    }
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .dashboard-container {
+
+        padding-left:12px;
+
+        padding-right:12px;
+
+    }
+
+
+
+    .dashboard-title {
+
+        font-size:26px;
+
+    }
+
+
+
+    .dashboard-subtitle {
+
+        font-size:14px;
+
+    }
+
+
+
+    .filter-header {
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+
+
+    .kpi-card {
+
+        height:110px;
+
+    }
+
+
+
+    .kpi-icon {
+
+        font-size:30px;
+
+    }
+
+
+
+    .kpi-value {
+
+        font-size:24px;
+
+    }
+
+
+
+    .section-title {
+
+        font-size:21px;
+
+    }
+
+
+
+    .custom-tab {
+
+        padding:10px 12px;
+
+        font-size:14px;
+
+    }
+
+
+}
